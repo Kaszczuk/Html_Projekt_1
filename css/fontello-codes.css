@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+ 
+.icon-html5:before { content: '\35'; } /* '5' */
+.icon-youtube:before { content: '\55'; } /* 'U' */
+.icon-cog:before { content: '\2699'; } /* '⚙' */
+.icon-attention:before { content: '\26a0'; } /* '⚠' */
+.icon-plus-circled:before { content: '\2795'; } /* '➕' */
+.icon-basket:before { content: '\e73d'; } /* '' */
+.icon-gplus:before { content: '\f0d5'; } /* '' */
+.icon-mail-alt:before { content: '\f0e0'; } /* '' */
+.icon-css3:before { content: '\f13c'; } /* '' */
+.icon-thumbs-up-alt:before { content: '\f164'; } /* '' */
+.icon-thumbs-down-alt:before { content: '\f165'; } /* '' */
+.icon-box:before { content: '\f187'; } /* '' */
+.icon-user-plus:before { content: '\f234'; } /* '' */
+.icon-facebook-rect:before { content: '\f301'; } /* '' */
+.icon-user:before { content: '👤'; } /* '\1f464' */
+.icon-search:before { content: '🔍'; } /* '\1f50d' */

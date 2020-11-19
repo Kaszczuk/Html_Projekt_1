@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="pl">
 <head>
+<title>Kursprogramistów.pl</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/fontello.css" type="text/css">
 <style>
 body {
-  background-color:#282828;
+  background-color:#1f1f1f;
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -23,15 +25,15 @@ body {
 .sidebar{
   background-color:#3a3a3a;
   border-radius: 8px;
-  border: 3px solid #bf7a36;
+  border: 3px solid #d9a026;
   height:815px;
-  width:195px;
-  margin:5px;
+  width:190px;
+  margin:6px;
   padding:15px;
 }
 .image {
   background-image: url("bg.png");
-  border-bottom: 2px solid #bf7a36;;
+  border-bottom: 2px solid #d9a026;
   height: 500px;
   background-position: center;
   background-repeat: no-repeat;
@@ -40,8 +42,8 @@ body {
 }
 .button {
   background-color: #595959;
-  width:88px;
-  border: 2px solid #bf7a36;
+  width:108px;
+  border: 2px solid #d9a026;
   border-radius: 4px;
   color: white;
   padding: 15px 32px;
@@ -55,7 +57,50 @@ body {
   cursor: pointer; 
 }
 .button:hover {
-  background-color: #bf7a36;
+  background-color: #d9a026;
+  transform: scale(0.9);
+  -webkit-transform: scale(0.9);
+  -ms-transform: scale(0.9);
+}
+.button1 { 
+  width:25px; 
+  padding: 10px 10px; 
+  margin-top: 444px;
+  margin-left:5px;  
+  text-align: center;
+}
+.button2 { 
+  border: 2px solid #ff3333;
+  width:25px; 
+  padding: 10px 10px; 
+  margin-top: 444px;
+  margin-left:5px;  
+  text-align: center;
+  transition-duration: 0.4s;
+  transition: 0.3s ease;
+  cursor: pointer; 
+}
+.button2:hover{ 
+  background-color: #ff3333;
+  border: 2px solid #ff3333;
+  transform: scale(0.9);
+  -webkit-transform: scale(0.9);
+  -ms-transform: scale(0.9);
+}
+.button3 { 
+  border: 2px solid #00b0e6;
+  width:25px; 
+  padding: 10px 10px; 
+  margin-top: 444px;
+  margin-left:5px;  
+  text-align: center;
+  transition-duration: 0.4s;
+  transition: 0.3s ease;
+  cursor: pointer; 
+}
+.button3:hover{ 
+  background-color: #00b0e6;
+  border: 2px solid #00b0e6;
   transform: scale(0.9);
   -webkit-transform: scale(0.9);
   -ms-transform: scale(0.9);
@@ -68,10 +113,18 @@ body {
   transform: translate(-50%, -50%);
   color: white;
 }
+#support{
+ background-color:#666666 ;
+ padding:5px;
+ text-align: center;
+ width:120px;
+ height:25px;
+}
 #footer{
   padding:10px;
   text-align:center;
-  background-color:#555555;
+  background-color:#3a3a3a;
+  border-top: 2px solid #d9a026;
   color:white;
 }
 </style>
@@ -87,24 +140,31 @@ body {
  </div>
 <div id="container"> 
 <center><div class="navbar">
-  <a href="Home2.html" class="button">Główna</a>
+  <a href="Home.html" class="button">Główna</a>
   <a href="Home2.html" class="button">Kursy</a>
   <a href="Home2.html" class="button">Forum</a>
   <a href="Home2.html" class="button">FAQ</a>
 </div></center>
  <div class="sidebar">
-  <a href="Home2.html" class="button">Główna</a>
+   <a href="Home.html" class="button">Główna</a>
   <br/>
-  <a href="Home2.html" class="button">Kursy</a>
+   <a href="Home2.html" class="button">Kursy</a>
   <br/>
-  <a href="Home2.html" class="button">Forum</a>
+   <a href="Home2.html" class="button">Forum</a>
   <br/>
-  <a href="Home2.html" class="button">FAQ</a>
+   <a href="Home2.html" class="button">FAQ</a>
+  <br/>
+   <a href="Home2.html" class="button button1"><i class="icon-search"></i></a>
+   <a href="Home2.html" class="button button2"><i class="icon-youtube"></i></a>
+   <a href="Home2.html" class="button button3"><i class="icon-gplus"></i></a>
  </div>
 </div>
 <div id="footer">
-<center><p>Zawartość Strony</p></center>
-<center><p> &copy Wszelkie prawa chronione</p></center>
+<center><p style="font-size:18px">Zawartość Strony</p></center>
+<center><p style="font-size:18px"> &copy Wszelkie prawa chronione</p></center>
+ <div id="support">
+  <a href="Home2.html" style="color:white">regulamin</a>
+ </div>
 </div>
 
 </body>
